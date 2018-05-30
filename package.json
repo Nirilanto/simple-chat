@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Nirilanto/simple-chat/issues"
   },
-  "homepage": "https://github.com/Nirilanto/simple-chat#readme"
+  "homepage": "https://github.com/Nirilanto/simple-chat#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3",
+    "rxjs": "^6.2.0"
+  }
 }
