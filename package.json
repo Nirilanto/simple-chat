@@ -1,0 +1,20 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "simple-chat-rest",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirilanto/simple-chat.git"
+  },
+  "author": "RAHERIMIHAJA Tokiniaina Nirilanto Venerand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirilanto/simple-chat/issues"
+  },
+  "homepage": "https://github.com/Nirilanto/simple-chat#readme"
+}
