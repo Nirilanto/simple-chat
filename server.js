@@ -35,6 +35,6 @@ app.get('/hdb_add/:name/:pw', (req, res) => {
 })
   
 
-const PORT = process.NODE_PORT || 6010
+const PORT = process.NODE_PORT || 6031
 app.listen(PORT, () => console.log(`server started ... @${PORT}`))
 

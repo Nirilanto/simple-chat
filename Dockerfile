@@ -4,5 +4,5 @@ WORKDIR /usr/src/app
 COPY ["package.json", "npm-shrinkwrap.json*", "./"]
 RUN npm install --production --silent && mv node_modules ../
 COPY . .
-EXPOSE 6010
+EXPOSE 6031
 CMD npm run prod
