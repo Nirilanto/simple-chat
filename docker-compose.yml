@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  2tmv-api:
+    image: simple-chat
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 6010:6010

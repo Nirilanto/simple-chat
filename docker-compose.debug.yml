@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  2tmv-api:
+    image: simple-chat
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 6010:6010
+      - 9229:9229
+    ## set your startup file here
+    command: node --inspect app.js
