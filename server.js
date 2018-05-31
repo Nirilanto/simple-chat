@@ -13,10 +13,26 @@ const app = express()
 app.use(morgan('dev'))
 app.use(cors())
 
-app.get('/', (req, res) => {
-    res.json("ok ok ok!!")
+app.get('/hdb_test', (req, res) => {
+    res.json("server hdb chat run!")
   
   })
+
+app.get('/hdb_msg', (req, res) => {
+    res.json("hdb all msg")
+  
+  })
+
+app.get('/hdb_user', (req, res) => {
+    res.json("hdb all msg")
+  
+  })
+
+app.get('/hdb_add/:name/:pw', (req, res) => {
+  const name = req.params.name
+  const pw = req.params.pw
+  res.json([name,pw])
+})
   
 
 const PORT = process.NODE_PORT || 6010
