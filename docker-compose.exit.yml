@@ -8,4 +8,5 @@ services:
       NODE_ENV: production
     ports:
       - 6031:6031
+
       
